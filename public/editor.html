@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+			<script defer src="script.js"></script>
+			<script defer src="sketch.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    	        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+
+	<title>Editor</title>
+</head>
+<body>
+
+	 <div class="edit-bar">
+	 	<nav>
+	 	  <div class="nav-wrapper grey lighten-3 edit-bar">
+	 	    <ul id="nav-mobile" class="center">
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="colorpicker()" style="padding: 8px; border-radius: 6px;">format_color_fill<input type="color" id="colorpicker"></span>
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="decreaseSize()" style="padding: 8px; border-radius: 6px;">remove</span>
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="eraseToggle()" style="padding: 8px; border-radius: 6px;">crop_7_5</span>
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="toggleBrush()" style="padding: 8px; border-radius: 6px;">brush</span>
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="increaseSize()" style="padding: 8px; border-radius: 6px;">add</span>
+			    <span class="waves-effect grey-text hoverable material-icons" onclick="toggleFigure()" style="padding: 8px; border-radius: 6px;">dashboard</span>
+	 	    </ul>
+	 	  </div>
+	 	</nav>
+	 </div>
+</body>
+</html>

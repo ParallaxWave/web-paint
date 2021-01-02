@@ -6,7 +6,7 @@ html{
 	scroll-behavior: smooth;
 }
 #about-bg{
-  background-image: url("cup.jpg");
+  background-image: url("cup2.jpg");
   min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
@@ -28,4 +28,14 @@ html{
         flex-direction: row;
         justify-content: center;
 	margin-top: 12vw;
+}
+.edit-bar{
+  overflow: hidden;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  bottom: 0;
+  width: 100%;
+  }
+#colorpicker{
+	display: none;
 }
